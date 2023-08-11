@@ -1,0 +1,43 @@
+ table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 10px;
+    text-align: center;
+    margin-left: 12cm;
+ }
+ div{
+    background-color: rgba(130, 239, 232, 0.874);
+    margin-left: 10cm;
+    margin-right: 10cm;
+    border-radius: 30px;
+ }
+ h1{
+    color: aliceblue;
+    text-align: center;
+    background-image: url(../img/mix\ colour\ 2.jpg);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+ }
+ p{
+    text-align: center;
+    font-size: larger;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+ }
+ h2{
+    text-align: center;
+
+ }
+ h2:hover{
+    color: blue;
+ }
+ *{
+    background-color:  rgba(254, 3, 120, 0.551);
+ }
+ table,td,th{
+    background-color: white;
+
+ }

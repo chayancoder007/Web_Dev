@@ -1,0 +1,55 @@
+/*.box{
+    height: 15cm;
+    width: 12cm;
+    background-color: rgba(0, 255, 255, 0.196);
+    margin-left: 35%;
+    margin-top: 1cm;
+    border-radius: 2cm;
+    box-shadow: 5px 5px 8px  black;
+}*/
+.box{
+    background-color: linear-gradient(135deg, rgba(255 , 255 , 255 , 0),rgba(255, 255 ,255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 1cm;
+    border: 1px solid rgba(255 , 255 , 255 , 0.18);
+   
+    box-shadow: 4px 4px 10px black;
+}
+.box1{
+    width: 500px;
+    height: 650px;
+    margin: 1cm auto;
+}
+body{
+    background-image: url(../img/mix\ colour.jpg);
+    background-size: 100%;
+    background-position: center;
+    
+}
+
+p{
+    padding: 20px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: azure;
+    text-align-last: center;
+    text-shadow: 7px 7px 10px black;
+
+}
+input[type="text"],input[type="number"],input[type="email"]{
+    width: 400px;
+    padding: 12px;
+    border: 2px solid rgb(167, 167, 250);
+    border-radius: 25px;
+    margin: 6px;
+    font-size: 20px;
+    text-shadow: 2px 2px 30px rgb(237, 6, 6);
+  
+}
+h1{
+    text-align: center;
+    color: beige;
+    text-shadow: 7px 7px 10px black;
+}

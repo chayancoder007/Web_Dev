@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+}
+h1{
+    background-color: hotpink;
+    padding: 100px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 10px black;
+    text-align: center;
+    font-size: 59px;
+    margin: 0%;
+}
+nav{
+ background-color: grey;
+ padding: 20px;
+ position: sticky;
+ top: 0px;
+}
+a:link{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 5px;
+    margin-right: 200px;
+    margin-left: 50px;
+}
+a:link:hover{
+    background-color: aqua;
+}
+nav a:hover{
+    text-decoration: overline;
+}
+p{
+    font-size: 30px;
+    font-family: cursive;
+
+}
+h3{
+    font-weight: bolder;
+    font-size: 40px;
+}
+@media
+(prefers-reduced-motion: no-preference){
+html {
+     scroll-behavior: smooth;
+}
+}

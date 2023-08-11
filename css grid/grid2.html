@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid2</title>
+</head>
+<style>
+    .container4{
+        display: grid;
+        grid-template-columns: repeat(6, 100px);
+        grid-gap: 10px;
+        grid-auto-rows: 100px;
+        grid-auto-columns: 100px;
+    }
+    .container6{
+        display: grid;
+        grid-template-columns:repeat(auto-fill, minmax(200px,1fr));
+        grid-gap: 10px;
+        grid-auto-rows: minmax(50px,auto);
+        /* the hieght is 100px and the hiegth is auto  */
+        grid-auto-columns: minmax(100px, auto);
+        /* the width is 100px and the width is auto  */
+    }
+    .container7{
+        display: grid;
+        grid-template-columns:repeat(auto-fill, minmax(400px,1fr));
+        grid-gap: 10px;
+        grid-auto-rows: minmax(50px,auto);
+        /* the hieght is 100px and the hiegth is auto  */
+        grid-auto-columns: minmax(100px, auto);
+        /* the width is 100px and the width is auto  */
+    }
+    .container5{
+        display: grid;
+        grid-template-columns:repeat(6, 100px);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(50px,auto);
+        /* the hieght is 100px and the hiegth is auto  */
+        grid-auto-columns: minmax(100px, auto);
+        /* the width is 100px and the width is auto  */
+    }
+    .items{
+        background-color: aquamarine;
+        padding: 10px;
+        border-radius: 5px;
+        
+    }
+    p{
+        text-align: center;
+        font-size: 25px;
+    }
+</style>
+<body>
+    <div class="container4" >
+        <div class="items">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea suscipit, voluptatibus ver.</div>
+        <div class="items">box 2</div>
+        <div class="items">box 3</div>
+        <div class="items">box 4</div>
+        <div class="items">box 5</div>
+        <div class="items">box 6</div>
+    </div>
+    <p>here we can see thw text is getting over folw as we gave a fixed size to the box</p>
+    <p>so now we will design a box that has a min sixe and it can increase its size as the text is more </p>
+    <div class="container5" >
+        <div class="items">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea suscipit, voluptatibus vero repellat pariatur veniam? Mollitia.</div>
+        <div class="items">box 2</div>
+        <div class="items">box 3</div>
+        <div class="items">box 4</div>
+        <div class="items">box 5</div>
+        <div class="items">box 6</div>
+    </div>
+    <p>as the box automatically occupie the size of the text now we will use same css property but instead of text we will write box 1</p>
+    <div class="container5" >
+        <div class="items">box 1</div>
+        <div class="items">box 2</div>
+        <div class="items">box 3</div>
+        <div class="items">box 4</div>
+        <div class="items">box 5</div>
+        <div class="items">box 6</div>
+    </div>
+    <p>Now we can automatically adjust the grid box according there size so to do that we 
+     have a syntax called auto fill in the repeat property lets see that
+    </p>
+    <div class="container6" >
+        <div class="items">box 1</div>
+        <div class="items">box 2</div>
+        <div class="items">box 3</div>
+        <div class="items">box 4</div>
+        <div class="items">box 5</div>
+        <div class="items">box 6</div>
+    </div>
+   <p> we gave 200px to to each box now if we increse the size </p>
+   <div class="container7" >
+    <div class="items">box 1</div>
+    <div class="items">box 2</div>
+    <div class="items">box 3</div>
+    <div class="items">box 4</div>
+    <div class="items">box 5</div>
+    <div class="items">box 6</div>
+</div>
+<p>just three box cam come in each row</p>
+
+</body>
+</html>

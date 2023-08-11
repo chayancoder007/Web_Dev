@@ -1,0 +1,53 @@
+h1{
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ptag{
+    color: orangered;
+    font-weight: bold;
+
+}
+legend.ptag{
+    color: blue;
+}
+*{
+    background-color: pink;
+}
+p{
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    text-justify: auto;
+}
+h2{
+    color: brown;
+    background-color: aliceblue;
+}
+.submit{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+
+.link{
+    color: brown;
+    text-align: center;
+}
+
+a:hover {
+    color: black;
+    text-decoration: overline;
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+}
+a.link{
+  text-align: center;
+  text-decoration: none;
+}
+
+a{
+    text-align: end
+    ;
+}

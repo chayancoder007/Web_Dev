@@ -1,0 +1,71 @@
+.flex-box{
+    width: 80px;
+    height: 80px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 2em;
+    color: aliceblue;
+    font-weight: bold;
+    line-height: 1.4;
+    padding: 10px;
+    position: sticky;
+
+}
+#flex-item-1 , #flex-item-a {
+    background-color: pink;   
+}
+#flex-item-2 ,#flex-item-b{
+    background-color: hotpink;
+}
+#flex-item-3 , #flex-item-c{
+    background-color: darkcyan;
+}
+#flex-item-4 , #flex-item-d {
+    background-color: skyblue;
+}
+#flex-item-5,#flex-item-e {
+    background-color: lightblue;
+}
+
+body{
+    font-family: fantasy;
+    font-size: 30px;
+    padding: 0 20px 30px 0;
+    line-height: 1.4;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float: right;
+}
+#flex-item-1,#flex-item-2,#flex-item-3,#flex-item-4,#flex-item-5{
+    margin: 8px;
+    border-radius: 10px;
+}
+.flex-container-2{
+    float: left; 
+    display: flex;
+    flex-direction: column-reverse;      
+}
+#flex-item-a,#flex-item-b,#flex-item-c,#flex-item-d,#flex-item-e{
+    margin: 8px;
+    padding: 15px;
+    border-radius: 10px;
+}
+p{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   position: relative;
+   font-weight: lighter;
+   font-size: 16px;
+   text-align: justify;
+}
+h1{
+    position: fixed;
+    background-color: aqua;
+    border-radius: 1cm;
+    align-items: center;
+    padding: 20px;
+    margin-left: 9cm;
+}

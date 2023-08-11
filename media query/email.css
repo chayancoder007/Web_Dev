@@ -1,0 +1,54 @@
+.box{
+    background-color: aqua;
+    width: 5cm;
+    height: 5cm;
+    margin: 5cm auto;  
+}
+/* @media screen and (min-width: 600px){
+    /* we use this property known as min-width so , if itll mic value this property doesnt work  */
+    /* after this min value which is 600 the media property works  */
+    /* .box{
+        background-color: red;
+    }
+} */ 
+.box1{
+   background-color: aqua;
+    width: 2cm;
+    height: 2cm;
+    margin: 3cm auto;
+    
+}
+/* @media screen and (max-width  : 600px){
+    .box1{
+        background-color: red;
+    }
+}
+@media(orientation : landscape){
+    .box,.box1{
+        background-color:gray; 
+    }
+} */
+/* @media screen and (min-width: 600px) and (orientation : landscape) {
+    /* and logic used for both condition  */
+    /* .box,.box1{
+        background-color: green;
+    }
+
+} */
+/* @media screen and (max-width: 600px),
+screen and (orientation: landscape){
+    /* we use " , " for or condition  */
+    /* .box,.box1{
+        background-color: green;
+    }
+} */ 
+
+
+
+/* not operator in media query */
+@media not all and (orientation : landscape){
+    .box,.box1{
+      background-color: red;
+    }
+}
+

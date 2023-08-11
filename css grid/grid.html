@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: 200px 100px 200px;
+        /* this above syntax gives the gird horizontal length  */
+    }
+    .container{
+        display: grid;
+        grid-template-rows: 100px 100px 100px 100px 100px;
+        /* this above syntax give vertical length to the grid element */
+    }
+    .container3{
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr; /*here we used the vale 1 fr three time in short we can giev a simpla value as */
+        /* grid-template-coloumn: repeat(3, 1fr); */
+        /* this above syntax gives equal shape to all the grid element */
+        /* to give gap btwn the grid element we use the below transition-property */
+        grid-gap: 10px;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .items{
+        background-color: lightpink;
+        border: 3px solid red;
+        border-radius: 1cm;
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">Box 1</div>
+        <div class="items">Box 2</div>
+        <div class="items">Box 3</div>
+        <div class="items">Box 4</div>
+        <div class="items">Box 5</div>
+    </div>
+    <div class="container2">
+        <div class="items">box 1</div>
+        <div class="items">box 2</div>
+        <div class="items">box 3</div>
+        <div class="items">box 4</div>
+        <div class="items">box 5</div>
+    </div>
+    <br>
+    <div class="container3">
+        <div class="items">box 1</div>
+        <div class="items">box 2</div>
+        <div class="items">box 3</div>
+        <div class="items">box 4</div>
+        <div class="items">box 5</div>
+        <!-- the grid size here is auto as its is implisit , mean the box size is depend on the text written inside the bix which is box 1 , box 2 etc -->
+        <!-- so we will elustrate a example as  -->
+    </div>
+    <hr><hr>
+    <div class="container4" style="display: grid; grid-template-columns: repeat(6, 100px);">
+        <!-- as in this we can see that the box is n=much more larger so we will reduce its size sp we will go another page -->
+       <a href="grid2.html">Grid example  5</a>
+        <div class="items">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea suscipit, voluptatibus vero repellat pariatur veniam? Mollitia culpa consequatur nisi voluptatibus distinctio dolorum, animi cum delectus reprehenderit ipsam repudiandae provident dolorem obcaecati adipisci ratione consectetur amet atque ullam est laborum! Et soluta architecto officia temporibus eligendi natus, animi tenetur alias officiis.</div>
+        <div class="items">box 2</div>
+        <div class="items">box 3</div>
+        <div class="items">box 4</div>
+        <div class="items">box 5</div>
+        <div class="items">box 6</div>
+    </div>
+
+</body>
+</html>

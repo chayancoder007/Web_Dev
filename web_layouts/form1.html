@@ -1,0 +1,60 @@
+<form action="">
+    <head>
+        <title>form</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="main_heading">User details</h1>
+            <hr>
+        <p class="ptag">Name : <input type="text" name="name" id="user_name" placeholder="chayan mandal"></p>
+        <fieldset>
+            <legend class="ptag0">Gender</legend>
+            <p>
+                Male <input type="radio" name="gender"  id="male"> Female <input type="radio" name="gender" id="female">
+            </p>
+        </fieldset>
+        <p>
+            Address : <textarea name="addesss" id="address" cols="80" rows="10" placeholder="enter your address"></textarea>
+        </p>
+        <P>
+            Contact : <input type="number" name="contact" id="phone_number" placeholder="8830*****9">
+        </P>
+        <p>
+            Email : <input type="email" name="mail" id="mail" placeholder="xyz@gmail.com">
+        </p>
+        <p>
+            Pincode : <input type="number" name="pincode" id="pincode" placeholder="548652">
+        </p>
+        <h2>
+            Payment Method
+        </h2>
+        <p>
+            Name as per Card : <input type="text" name="card_name" id="card_name" placeholder="xyz">
+        </p>
+        <p>
+            Card Type *: 
+            <select name="card_type" id="card_type" required>
+              <option value="">----select your card type----</option>
+              <option value="Master_card">Master card</option>
+              <option value="Visa">Visa</option>
+              <option value="Rupay">Rupay</option>
+            </select>
+        </p>
+        <p>
+            Card Number* : <input type="number" name="card_num" id="card_num" required placeholder="125488674525" >
+        </p>
+        <p>
+            CVV <input type="password" name="Cvv" id="Cvv" placeholder="132">
+        </p>
+        <p>
+            Expiration number : <input type="date" name="expiri" id="expiri" placeholder="22/20">
+        </p> 
+        <div>
+        <input class="submit" value="PayNow"></div>
+        <br><br><hr><br>
+        <a class="link" href="website1.html">worriour</a>
+    </div>
+
+    </body>
+</form>

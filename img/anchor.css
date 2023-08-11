@@ -1,0 +1,78 @@
+nav a{
+    text-decoration: none;
+    color: rgb(254, 254, 31);
+    padding: 15px;
+    font-family: cursive;
+}
+nav {
+    background-color: black;
+    overflow: hidden;
+    font-size: large;
+    text-align: center;
+    border-top-left-radius: 5cm;
+    border-bottom-right-radius: 5cm;
+    margin-right: 3cm;
+    margin-left: 3cm;
+}
+
+nav a:hover{
+    color: tomato;
+
+}
+ 
+h1{
+    text-decoration: none;
+    font-style: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: orangered;
+    background-color: aqua;
+    border-radius: 1cm;
+    margin-left: 10cm;
+    margin-right: 10cm;
+    
+   
+}
+*{
+    background-color: rgba(255, 228, 196, 0.55);
+}
+.a1{
+    text-align: justify;
+    color: blue;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: sans-serif;
+
+}
+.a2{
+    text-transform: capitalize;
+    text-align: justify;
+    color: rgb(56, 150, 232);
+}
+.H1,.H4{
+    margin-left: 2cm;
+    margin-right: 18cm;
+    background-color: chartreuse;
+    color: darkred;
+}
+li{
+    font-size: medium;
+    font-weight: bolder;
+    padding: 2px;
+    margin-left: 8cm;
+}
+.H4{
+    background-color: cornflowerblue;
+}
+.welcome{
+    background-image: url(img/mix\ colour\ 3.jpg);
+    font-size: 75px;
+    font-weight: bolder;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.div{
+    background-color: aliceblue;
+}
